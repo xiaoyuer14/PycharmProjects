@@ -1,0 +1,1 @@
+"""	moni"""import randomdef roll_dice():    roll = random.randint(1, 6)    return rolldef main():	print(roll_dice())if __name__ == '__main__':	main()
